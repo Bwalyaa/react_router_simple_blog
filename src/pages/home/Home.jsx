@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Nav from "../../assets/components/nav/Nav";
 
 const Home = () => {
@@ -5,7 +6,7 @@ const Home = () => {
         <>
         <Nav />
         <h2>Home Page</h2>
-        <button></button>
+        <Link to="/Blog"><button>go to articles</button></Link>
         </>
      );
 }
